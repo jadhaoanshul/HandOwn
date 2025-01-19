@@ -1,54 +1,66 @@
-<p align="center">
-<img alt="Text-to-handwriting title image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJrMR1c_ZUbHZJQgTB9HyXLjrwsIeIDkuMTw&usqp=CAU" /> 
- <br/><b><a href="https://udhaybhat00.github.io/text_to_handwriting/">https://udhaybhat00.github.io/text_to_handwriting/</a></b><br/><br/>
- </p>
- </div>
- 
-<div align="center"> 
-  <a href="mailto:udhaybhat00@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
-  </a>
-  <a href="https://linkedin.com/in/udhaybhat" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
-  </a>
-  <a href="add_here" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
-  <center>
-    <h3>Hate writing assignments ?</h3>
-    <p>You can use this tool that can convert your provided text to a handwriiten image. 🫠</p>
-</center>
-  
-</div>
- <hr/>
-</p>
+# HandOwn Project
 
+Welcome to the HandOwn project! This README will guide you through the process of downloading and running the project.
 
-## 🌠 Output
+## Prerequisites
 
-<img width="400" alt="Sample image of output" src="sample.jpeg" />
+Before you begin, ensure you have met the following requirements:
+- You have installed the latest version of [Node.js](https://nodejs.org/).
+- You have a working internet connection.
 
-## 📚 Libraries used
+## Downloading the Project
 
-- [html2canvas](https://github.com/niklasvh/html2canvas) - Turns DOM into Canvas.
-- [jsPDF](https://github.com/MrRio/jsPDF) - To generate PDF from images.
-- [cypress](https://github.com/cypress-io/cypress) - Testing Library
-- [serve](https://github.com/zeit/serve) - Start local server
+To download the project, follow these steps:
 
-<hr/>
-<h2 align="center">🙋‍♂️ Support</h2>
+1. Clone the repository:
+  ```sh
+  git clone https://github.com/jadhaoanshul/HandOwn.git
+  ```
+2. Navigate to the project directory:
+  ```sh
+  cd HandOwn
+  ```
 
+## Running the Project
 
-<h3 align="center">💙 If you like this project, give it a ⭐ and share it with your friends!</h3>
-<br>
-<div align="center">
-    <a href="https://www.buymeacoffee.com/udhaybhat">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="udhaybhat" height="50" width="210">
-    </a>
-</div>
+To run the project, follow these steps:
 
-<hr>
-<h3 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Thanks+for+visiting!+✌️;+Shoot+me+a+message+on+Linkedin!;I'm+always+down+to+collab+:)">
-</h3>
-<br/>
+1. Install the dependencies:
+  ```sh
+  npm install
+  ```
+2. Start the development server:
+  ```sh
+  npm start
+  ```
+
+## Usage
+
+Once the server is running, you can access the project by navigating to `http://localhost:3000` in your web browser.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+  ```sh
+  git checkout -b feature-branch
+  ```
+3. Make your changes and commit them:
+  ```sh
+  git commit -m 'Add some feature'
+  ```
+4. Push to the branch:
+  ```sh
+  git push origin feature-branch
+  ```
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to contact us at [your-email@example.com](mailto:your-email@example.com).

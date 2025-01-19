@@ -29,7 +29,7 @@
     />
     <meta
       name="keywords"
-      content="text to handwriting, text-to-handwrting, saurabh text to handwriting, convert text to image, write assignment online"
+      content="text to handwriting, text-to-handwrting, Anshul text to handwriting, convert text to image, write assignment online"
     />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="author" content="Anshul Jadhao" />
@@ -61,7 +61,7 @@
     <meta property="og:image:height" content="337" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:creator" content="@saurabhcodes" />
+    <meta name="twitter:creator" content="@ajcodes" />
 
     <title>HandOwn</title>
 
@@ -106,10 +106,10 @@
           <nav>
             <img src="mainlogo.png" class="logo"> 
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">🤓Guide</a></li>
-              <li><a href="#">🤗Editorial</a></li>
-              <li><a href="#">-`♡´-Contact</a></li>
+                <li><a href="#header" style="color: var(--text-color);">Home</a></li>
+                <li><a href="#how-to-add-handwriting" style="color: var(--text-color);">🤓Guide</a></li>
+                <li><a href="#sponsors" style="color: var(--text-color);">🤗Editorial</a></li>
+                <li><a href="#regards" style="color: var(--text-color);">-`♡´-Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -135,163 +135,167 @@
             src="images/moon.svg"
         /></span>
       </button>
-      <h1>Text to Handwriting</h1>
+      <hr
+        style="
+          border: 0.6px solid var(--elevation-background);
+          width: 100%;
+        ">
+      <h2>Text to Handwriting</h2>
       <section class="generate-image-section">
-        <br /><br />
         <form id="generate-image-form">
           <!-- Generate Image Section -->
           <div class="display-flex output-grid responsive-flex">
-            <div class="flex-1 page-container-super">
-              <div>
-                <h2 style="margin-top: 0px;">Input</h2>
-                <label class="block" for="note">Type/Paste text here</label>
-              </div>
+        <div class="flex-1 page-container-super">
+          <div>
+            <h2 style="margin-top: 0px;">Input</h2>
+            <label class="block" for="note">Type/Paste text here</label>
+          </div>
 
-              <div class="flex-1 page-container">
-                <div class="page-a margined lines">
-                  <div contenteditable="true" class="top-margin"></div>
-                  <div class="display-flex left-margin-and-content">
-                    <div contenteditable="true" class="left-margin"></div>
-                    <div class="paper-content" id="note" contenteditable="true">
-                      Oblisieus: The Forgotten Kingdom
-                      Oblisieus was a magical kingdom protected by the Orb of Lumina, which brought peace and prosperity. One day, the Orb’s light dimmed after a shard was stolen by a mysterious figure. Amara, a young scholar, embarked on a dangerous journey to recover it, facing illusions, icy wastelands, and ancient secrets.
-                      She discovered the thief, Maldrith, was a guardian protecting the shard, revealing the truth: the kingdom relied too much on the Orb’s power. Amara returned the shard and helped her people realize their strength came from unity, not magic......
-                      With balance restored, Oblisieus thrived again, a symbol of resilience and hope.
-                    </div>
-                  </div>
-                  <div class="overlay"></div>
-                </div>
-                <br />
-              </div>
-
-              <div>
-                <button
-                  id="draw-diagram-button"
-                  type="button"
-                  style="font-size: 0.9rem; margin-top: 5px;"
-                  class="draw-button"
-                >
-                  Draw <small>(Beta)</small>
-                </button>
-              </div>
+          <div class="flex-1 page-container">
+            <div class="page-a margined lines">
+          <div contenteditable="true" class="top-margin"></div>
+          <div class="display-flex left-margin-and-content">
+            <div contenteditable="true" class="left-margin"></div>
+            <div class="paper-content" id="note" contenteditable="true">
+              Oblisieus: The Forgotten Kingdom
+              Oblisieus was a magical kingdom protected by the Orb of Lumina, which brought peace and prosperity. One day, the Orb’s light dimmed after a shard was stolen by a mysterious figure. Amara, a young scholar, embarked on a dangerous journey to recover it, facing illusions, icy wastelands, and ancient secrets.
+              She discovered the thief, Maldrith, was a guardian protecting the shard, revealing the truth: the kingdom relied too much on the Orb’s power. Amara returned the shard and helped her people realize their strength came from unity, not magic......
+              With balance restored, Oblisieus thrived again, a symbol of resilience and hope.
             </div>
+          </div>
+          <div class="overlay"></div>
+            </div>
+            <br />
+          </div>
 
-            <div class="customization-col">
-              <!-- Handwriting Font -->
-              <div style="padding: 5px 0px 5px 0px;">
-                <b>Customizations</b> <small>(Optional)</small>
-                <p style="font-size: 0.8rem;">
-                  <em
-                    >Note: Few changes may reflect only in the generated image
-                    and not in the preview</em
-                  >
-                </p>
-              </div>
-              <fieldset>
-                <legend>Handwriting Options</legend>
+          <div>
+            <button
+          id="draw-diagram-button"
+          type="button"
+          style="font-size: 0.9rem; margin-top: 5px;"
+          class="draw-button"
+            >
+          Draw <small>(Beta)</small>
+            </button>
+          </div>
+        </div>
 
-                <div class="category-grid">
-                  <div>
-                    <label class="block" for="handwriting-font"
-                      >Handwriting Font</label
-                    >
-                    <select id="handwriting-font">
-                      <option
-                        selected
-                        style="font-family: 'Homemade Apple';"
-                        value="'Homemade Apple', cursive"
-                      >
-                        Homemade Apple
-                      </option>
-                      <option value="Hindi_Font">Kruti-dev(Hindi)</option>
-                      <option
-                        style="font-family: 'Caveat', cursive; font-size: 13pt;"
-                        value="'Caveat', cursive"
-                      >
-                        Caveat
-                      </option>
-                      <option
-                        style="
-                          font-family: 'Liu Jian Mao Cao';
-                          font-size: 13pt;
-                        "
-                        value="'Liu Jian Mao Cao', cursive"
-                      >
-                        Liu Jian Mao Cao
-                      </option>
-                    </select>
-                  </div>
-                  <div class="upload-handwriting-container">
-                    <label class="block" for="font-file"
-                      >Upload your handwriting font <small>(Beta)</small>&nbsp;
-                      <a
-                        style="font-size: 1.1rem;"
-                        title="How to add your own handwriting"
-                        href="#how-to-add-handwriting"
-                      >
-                        &#9432;
-                      </a>
-                    </label>
-                    <input accept=".ttf, .otf" type="file" id="font-file" />
-                  </div>
-                </div>
-              </fieldset>
+        <div class="customization-col">
+          <!-- Handwriting Font -->
+          <div style="padding: 5px 0px 5px 0px;">
+            <b>Customizations</b> <small>(Optional)</small>
+            <p style="font-size: 0.8rem;">
+          <em
+            >Note: Few changes may reflect only in the generated image
+            and not in the preview</em
+          >
+            </p>
+          </div>
+          <fieldset>
+            <legend>Handwriting Options</legend>
 
-              <!-- Pen ink color, Font size, Vertical position text, Word Spacing -->
-              <fieldset>
-                <legend>Page & Text Options</legend>
+            <div class="category-grid">
+          <div>
+            <label class="block" for="handwriting-font"
+              >Handwriting Font</label
+            >
+            <select id="handwriting-font">
+              <option
+            selected
+            style="font-family: 'Homemade Apple';"
+            value="'Homemade Apple', cursive"
+              >
+            Homemade Apple
+              </option>
+              <option value="Hindi_Font">Kruti-dev(Hindi)</option>
+              <option
+            style="font-family: 'Caveat', cursive; font-size: 13pt;"
+            value="'Caveat', cursive"
+              >
+            Caveat
+              </option>
+              <option
+            style="
+              font-family: 'Liu Jian Mao Cao';
+              font-size: 13pt;
+            "
+            value="'Liu Jian Mao Cao', cursive"
+              >
+            Liu Jian Mao Cao
+              </option>
+            </select>
+          </div>
+          <div class="upload-handwriting-container">
+            <label class="block" for="font-file"
+              >Upload your handwriting font <small>(Beta)</small>&nbsp;
+              <a
+            style="font-size: 1.1rem;"
+            title="How to add your own handwriting"
+            href="#how-to-add-handwriting"
+              >
+            &#9432;
+              </a>
+            </label>
+            <input accept=".ttf, .otf" type="file" id="font-file" />
+          </div>
+            </div>
+          </fieldset>
 
-                <div class="category-grid">
-                  <div class="postfix-input" data-postfix="pt">
-                    <label for="font-size">Font Size</label>
-                    <input
-                      id="font-size"
-                      min="0"
-                      step="0.5"
-                      value="10"
-                      type="number"
-                    />
-                  </div>
-                  <div>
-                    <label class="block" for="ink-color">Ink Color</label>
-                    <select id="ink-color">
-                      <option default value="#000f55">Blue</option>
-                      <option value="black">Black</option>
-                      <option value="#ba3807">Red</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label class="block" for="page-size">Page Size</label>
-                    <select id="page-size">
-                      <option default value="a4">A4 &nbsp;</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label class="block" for="page-effects">Effects</label>
-                    <select id="page-effects">
-                      <option default value="shadows">Shadows</option>
-                      <option value="scanner">Scanner</option>
-                      <option value="no-effect">No Effect</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label class="block" for="resolution">Resolution</label>
-                    <select id="resolution">
-                      <option value="0.8">Very Low</option>
-                      <option value="1">Low</option>
-                      <option selected value="2">Normal</option>
-                      <option value="3">High</option>
-                      <option value="4">Very High</option>
-                    </select>
-                  </div>
-                </div>
-              </fieldset>
+          <!-- Pen ink color, Font size, Vertical position text, Word Spacing -->
+          <fieldset>
+            <legend>Page & Text Options</legend>
 
-              <fieldset>
-                <legend>Spacing Options</legend>
+            <div class="category-grid">
+          <div class="postfix-input" data-postfix="pt">
+            <label for="font-size">Font Size</label>
+            <input
+              id="font-size"
+              min="0"
+              step="0.5"
+              value="10"
+              type="number"
+            />
+          </div>
+          <div>
+            <label class="block" for="ink-color">Ink Color</label>
+            <select id="ink-color">
+              <option default value="#000f55">Blue</option>
+              <option value="black">Black</option>
+              <option value="#ba3807">Red</option>
+            </select>
+          </div>
+          <div>
+            <label class="block" for="page-size">Page Size</label>
+            <select id="page-size">
+              <option default value="a4">A4 &nbsp;</option>
+            </select>
+          </div>
+          <div>
+            <label class="block" for="page-effects">Effects</label>
+            <select id="page-effects">
+              <option default value="shadows">Shadows</option>
+              <option value="scanner">Scanner</option>
+              <option value="no-effect">No Effect</option>
+            </select>
+          </div>
+          <div>
+            <label class="block" for="resolution">Resolution</label>
+            <select id="resolution">
+              <option value="0.8">Very Low</option>
+              <option value="1">Low</option>
+              <option selected value="2">Normal</option>
+              <option value="3">High</option>
+              <option value="4">Very High</option>
+            </select>
+          </div>
+            </div>
+          </fieldset>
 
-                <div class="category-grid">
-                  <div class="postfix-input" data-postfix="px">
+          <fieldset>
+            <legend>Spacing Options</legend>
+
+            <div class="category-grid">
+          <div class="postfix-input" data-postfix="px">
                     <label for="top-padding">Vertical Position</label>
                     <input id="top-padding" min="0" value="5" type="number" />
                   </div>
@@ -387,8 +391,7 @@
                 <button
                   type="submit"
                   data-testid="generate-image-button"
-                  class="button generate-image-button"
-                >
+                  class="button generate-image-button">
                   Generate Image
                 </button>
               </div>
@@ -398,7 +401,7 @@
       </section>
 
       <!-- OUTPUT -->
-      <section>
+      <section id="output-section">
         <h2 id="output-header">Output</h2>
         <div id="output" class="output" style="text-align: center;">
           Click "Generate Image" Button to generate new image.
@@ -499,7 +502,7 @@
         <div>
           <h3>3. There are gaps between letters in custom fonts</h3>
           <p>
-            This is a known issue that we haven't figured out the solution for.
+            This is a known issue that we haven't figured out the solution in this version.
             As a temporary workaround, there is letter spacing and word spacing
             option to adjust the gap.
           </p>
@@ -507,13 +510,15 @@
         <div>
           <h3>4. Where can I request for features and report bugs?</h3>
           <p>
-            You can't. This is a read-only project and there will not be any
-            improvements in the project
+            You can give reviews in
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfvLEvkaAPwr0IPZRuoP9jikCSuKLTEOnZaV1GxunJnLUT_YA/viewform?usp=dialog" target="_blank">
+          Buy me a Coffee</a>
           </p>
         </div>
       </fieldset>
       </section>
     </main>
+    <section id="regards">
     <fieldset>
       <legend style="font-size: larger; font-weight: bold;" >-`♡´-  Regards</legend>
       Thank you for using Text to Handwriting! You can follow me on
@@ -528,7 +533,52 @@
       <br />byeeee! <br /><br />
       ~ AJ <a href="https://www.instagram.com/anshuljadhao_aj/"></a
       >
-  </fieldset>
+    </fieldset>
+  </section>
+  <section id="contact-info" style="text-align: center;">
+    <legend style="font-size: larger; font-weight: bold;">Contacts</legend>
+    <div>
+      <p>
+        <a href="mailto:anshuljadhao@gmail.com"> 
+          anshuljadhao@gmail.com
+        </a> | +91-9975656379
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/anshuljadhao" target="_blank">
+          <img src="icons\Linked In.png" width="30px" />
+        </a>&nbsp;
+        <a href="https://github.com/jadhaoanshul" target="_blank">
+          <img src="icons\github.svg" width="40px" />
+        </a>&nbsp;
+        <a href="https://www.instagram.com/anshuljadhao_aj/" target="_blank">
+          <img src="icons\instagram.svg" width="30px"/>
+        </a>
+      </p>
+    </div>
+  </section>
+
+      <hr
+        style="
+          border: 0.2px solid var(--elevation-background);
+          width: 100%;
+        ">
+
+    <footer
+      style="
+        text-align: center;
+        padding: 10px;
+        font-size: 0.8rem;
+        color: var(--text-color);
+      ">
+      <a href = "#header">
+      <img
+        src="mainlogo.png"
+        width="100px"></a>
+      <p>
+        made with ❤️ in fellows</br>
+        @2025 copyright by AJ, Inc.
+      </footer>
+
     <!-- Fixed Elements -->
     <section class="draw-container popup-container">
       <button class="close-button">&times;</button>
